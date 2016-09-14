@@ -1,13 +1,19 @@
 body {
   margin: 0;
+  font-family: "avenir";
+}
+
+* {
+  box-sizing: border-box;
 }
 
 #hero {
   background: url('././Images/houstonSkyline.jpg') #333;
+  background-size: cover;
   background-position: center;
-  background-size: 100%;
   height: 266px;
   position: relative;
+  margin-bottom: 65px;
 }
 
 .logo {
@@ -18,22 +24,102 @@ body {
   z-index: 50;
   position: absolute;
   top: 218px;
-  left: 200px;
+  left: 130px;
 }
 
-h3 {
+h2 {
   color: #363B3F;
+  font-size: 38px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  margin-top: 5px;
 }
 
 h5 {
   text-transform: uppercase;
   color: #606060;
+  letter-spacing: 1px;
 }
 
-#blog-content,
-aside {
-  float: right;
+section h2,
+aside h5 {
+  font-weight: 900;
 }
+
 .byline {
-  font-style:italic;
+  font-family: "courier compact";
+  padding-bottom: 5px;
+  color: #7e7e7e;
+  font-style: italic;
+}
+
+section p {
+  font-weight: 700;
+}
+
+aside p {
+  font-family: courier;
+  font-weight: 500;
+}
+
+hr {
+  border-top: 1px solid #bdbdbd;
+}
+
+
+.body-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+#blog-content {
+  width: 75%;
+  margin: 0;
+  padding-left: 40px;
+}
+
+aside {
+  float: left;
+  width: 25%;
+  padding-left: 120px;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+label,
+aside p {
+  color: #bdbdbd;
+}
+
+label {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#search {
+  background: url('././Images/magnifyingGlass.png') #fff;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.article-image {
+  width: 450px;
+}
+
+a {
+  text-decoration: none;
+  color: #0088cc;
+}
+
+.pop-up {
+  position: relative;
+}
+.pop-up-icon {
+  height: 80px;
+  position: absolute;
+  bottom: 5px;
+  right: 100px;
 }
