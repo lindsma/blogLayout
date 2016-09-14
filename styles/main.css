@@ -64,8 +64,9 @@ aside p {
 
 hr {
   border-top: 1px solid #bdbdbd;
+  width: 80%;
+  align: "left";
 }
-
 
 .body-container {
   overflow: hidden;
