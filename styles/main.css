@@ -1,18 +1,38 @@
+body {
+  margin: 0;
+}
+
 #hero {
   background: url('././Images/houstonSkyline.jpg') #333;
   background-position: center;
   background-size: 100%;
-  height: 225px;
-  width: 1086px;
+  height: 266px;
   position: relative;
 }
 
 .logo {
   border-radius: 50%;
   background: #231F20;
-  height: 73px;
+  height: 88px;
   border: 4px solid white;
   z-index: 50;
+  position: absolute;
+  top: 218px;
+  left: 200px;
+}
+
+h3 {
+  color: #363B3F;
+}
+
+h5 {
+  text-transform: uppercase;
+  color: #606060;
+}
+
+#blog-content,
+aside {
+  float: right;
 }
 .byline {
   font-style:italic;
