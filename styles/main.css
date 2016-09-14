@@ -1,0 +1,10 @@
+#hero {
+  background: url('../Images/houstonSkyline.jpg') red;
+  background-size: 100%;
+  height: 225px;
+  position: relative;
+}
+
+.byline {
+  font-style:italic;
+}
